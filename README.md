@@ -1,80 +1,33 @@
-# Bug Buster – Typing Speed Game
+# Type-Strike – Real-Time Typing Game
 
-A fast-paced and addictive typing game where you squash falling bugs by typing their names before they hit the ground. Built using **React**, **Vite**, **TailwindCSS**, and **Firebase**.
+Type-Strike is a real-time browser-based typing game featuring dynamic gameplay, performance-focused UI updates, and a low-latency leaderboard system.
 
----
-
-## How to Play
-
-- Bugs with random words fall from the top of the screen.
-- Type the correct word and press **Enter** to eliminate a bug.
-- Each correct word earns **progressively increasing points** (streak-based system).
-- Lose a life for incorrect words or for letting a bug reach the bottom.
-- The game ends when you lose all your lives.
-- Try to beat the global **top 3 leaderboard**!
-
----
+## Tech Stack
+- Frontend: React.js
+- Backend Services: Firebase
+- Database: Firebase Firestore
+- Deployment: Vercel
 
 ## Features
+- Real-time gameplay with event-driven state updates
+- Live leaderboard using Firebase Firestore
+- Low-latency updates for concurrent users
+- Sound effects and interactive UI
+- Maintainable and modular React component architecture
 
-- **Streak-Based Scoring** – Earn more points the longer your correct streak.
-- **Global Leaderboard** – Top scores stored using **Firebase**.
-- **Name Input** – Submit your name to compete with others.
-- **Smooth Bug Animations** – Bugs fall with seamless motion.
-- **Game Controls** – Pause, resume, restart, and quit anytime.
-- **Animated Starry Background** – Clean and modern arcade feel.
-- **Sound Effects** – Toggleable in-game sounds for actions and events.
-- **Responsive Design** – Fully playable across desktops, tablets, and mobiles.
-- **Difficulty Selection** – Choose your challenge level at the start.
-- **High Score Tracker** – Displays your personal best.
+## Architecture Highlights
+- Real-time data synchronization using Firebase
+- Performance-optimized state management
+- Event-driven gameplay logic
+- Clean separation of UI components and game logic
 
----
+## Getting Started
+1. Clone the repository
+2. Install dependencies using `npm install`
+3. Configure Firebase environment variables
+4. Run the app using `npm start`
 
-## Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YourUsername/04-Game-BugBuster.git
-cd 04-Game-BugBuster
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Start the development server:
-
-bash
-Copy
-Edit
-npm run dev
-Open your browser and go to:
-
-arduino
-Copy
-Edit
-http://localhost:5173
-🛠️ Tech Stack
-⚛️ React
-
-⚡ Vite
-
-🎨 TailwindCSS
-
-🔥 Firebase (Realtime Database)
-
-🧩 random-words (for word generation)
-
-🎧 React Icons (UI enhancements)
-
-👨‍💻 Made By
-Team Bit Benders – as part of the Jabsz Gaming Studios – Summer Internship Project
-
-Vishwas Pandey
-
-Manish Kumar Dhankhar
-
-Mahdi Abdullaha
-
-Monishka Jain
+## Learning Outcomes
+- Building real-time applications
+- Managing low-latency state updates
+- Designing interactive browser-based games
